@@ -5,12 +5,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
+
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+    />
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
 </head>
-<body>
-    <p><h1>this is our index page
-        <br>
-        we can start doing are work now
-    </h1></p>
+<body style="font-family: 'Open Sans', sans-serif;">
+    <div id="navbar" >
+        <ul>
+            <li style="width:80%; "><a style="font-weight:bold; font-size: 30px;  padding-left:5px; color:rgb(211, 12, 12); " href="index.html">FoodSick</a></li>    
+            <li class="navigation" style="width:3%;"><a href="./PAGES/dishes.html" style="color: black;">Dishes</a></li> 
+            <li class="navigation" style="width: 3%;"><a href="#about" style="padding:10px; color: black;">About</a></li>
+            <li class="navigation" style="width:3%;"><a style="padding-left:15px; color: black;" href="PAGES/login.html"> Login </a></li> 
+            <li class="navigation" style="width:3%;"><a href="PAGES/signup.html" style=" padding-left:18px; color: black;">Signup</a></li> 
+        </ul>
+    </div>
+    <div class="container">
+        <div class="hero" style="border-bottom: 4px black solid;">
+            <center>
+                <div id="inside_hero">
+                    <span style="display:inline-block; width: 100%; color: rgb(253, 37, 37); font-family: 'Mochiy Pop One', sans-serif; font-size: 40px;">FoodSick</span>
+                    <span style="font-size:15px;  color: aliceblue;">Know the miraculus history behind every dish</span>
+                    <div style="padding:15px 0;">
+                        <form action="">
+                            <input style="text-decoration: none;width: 250px; padding:5px 45px; text-align: center; border-radius: 10px; border: 2px black solid; background-color:rgb(255, 255, 255);" type="text" placeholder="Enter Food Name" name="food">
+                            <input style="text-decoration: none; padding:5px; padding:5px; text-align: center; border-radius: 10px; border: 2px black solid; background-color:rgba(236, 14, 14, 0.925); color: white;" type="submit" name="search" value="search">
+                        </form>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <section id="contact" style="margin-top: 30px;">
+            <h1 class="h-primary center" style="text-align: center; color:gray; background-color: black; padding:5px 0">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group" ;">
+                        <label for="name" style="color: red;">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group";">
+                        <label for="email" style="color: red;">Email: </label>
+                        <input type="email" name="name" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group";">
+                        <label for="phone" style="color: red;">Phone Number: </label>
+                        <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                    </div>
+                    <div class="form-group";">
+                        <label for="message" style="color: red;">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+            <h1 style="background-color: black;margin-top: -25px; width: 100%;">.</h1>
+        </section>
     
+        <footer style="margin-top:10px">
+            <section class="sec-1">
+              <section class="about">
+                <h2 ID="about">About</h2>
+                <p>
+                    We are a group of students with an objective to make a website to provide best of class information about variety of cuisines'.
+their exquisite information and about their origin and history. We hope to achieve this thourght this website and provide various customers with an extravagant experience.
+                </p>
+              </section>
+              <section class="link1">
+                <h2>Menu links</h2>
+                <ul>
+                  <li><a href="#">Dishes</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Signup</a></li>
+                </ul>
+              </section>
+              <section class="link2">
+                <h2>Quick Links</h2>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Contribute</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Sitemap</a></li>
+                  <li><a href="#">Disclaimer</a></li>
+                </ul>
+              </section>
+              <section class="link3">
+                <h2>Contact Us</h2>
+                <ul>
+                  <li>
+                    <i class="fa fa-home"></i> <span>69bc, Rajasthan, India</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-envelope"></i>
+                    <span>FoodSickIndia@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-phone-square"></i>
+                    <span>Mobile: 9729280731</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-facebook-official"></i>
+                    <a href="#">betalabsindia</a>
+                  </li>
+                </ul>
+              </section>
+            </section>
+            <hr width="100%" noshade/>
+            <section class="sec-3">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                </li>
+              </ul>
+            </section>
+            <section class="sec-4">
+              <p>
+                Copyright © 2020 All Rights Reserved by
+                <a href="index.html">FoodSick</a>
+              </p>
+            </section>
+          </footer>
+    </div>
 </body>
 </html>
